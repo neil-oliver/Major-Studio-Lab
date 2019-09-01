@@ -18,7 +18,7 @@ const adder3 = (a, b) => {
 
 // Task
 // Which of the following lines generates an error? Why? Fix the code so it does not generate an error.
-const a = 1;
+let a = 1;
 let b = 2;
 
 a = b + 1;

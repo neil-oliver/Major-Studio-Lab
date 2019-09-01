@@ -12,6 +12,8 @@ function getIrisData() {
   fs.readFile("./iris_json.json", "utf8", (err, data) => {
     if (err) console.log(err);
     console.log(data);
+    var obj = JSON.parse(data);
+    console.log(obj.length); // 150 entries
   });
 }
 
